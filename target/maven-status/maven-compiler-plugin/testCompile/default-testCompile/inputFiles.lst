@@ -1,0 +1,14 @@
+/Users/eliya/ts-selenium-testing/src/test/java/com/testsquad/config/CloudCapabilities.java
+/Users/eliya/ts-selenium-testing/src/test/java/com/testsquad/context/TestContext.java
+/Users/eliya/ts-selenium-testing/src/test/java/com/testsquad/factory/DriverFactory.java
+/Users/eliya/ts-selenium-testing/src/test/java/com/testsquad/factory/DriverManager.java
+/Users/eliya/ts-selenium-testing/src/test/java/com/testsquad/hooks/Hooks.java
+/Users/eliya/ts-selenium-testing/src/test/java/com/testsquad/listeners/TestListener.java
+/Users/eliya/ts-selenium-testing/src/test/java/com/testsquad/pages/BasePage.java
+/Users/eliya/ts-selenium-testing/src/test/java/com/testsquad/pages/HomePage.java
+/Users/eliya/ts-selenium-testing/src/test/java/com/testsquad/reporting/CucumberExtentReporter.java
+/Users/eliya/ts-selenium-testing/src/test/java/com/testsquad/reporting/ExtentManager.java
+/Users/eliya/ts-selenium-testing/src/test/java/com/testsquad/runners/TestRunner.java
+/Users/eliya/ts-selenium-testing/src/test/java/com/testsquad/stepdefs/HomePageSteps.java
+/Users/eliya/ts-selenium-testing/src/test/java/com/testsquad/utils/ConfigReader.java
+/Users/eliya/ts-selenium-testing/src/test/java/com/testsquad/utils/WaitUtils.java

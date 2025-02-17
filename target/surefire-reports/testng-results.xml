@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-17T13:41:19 PKT" name="Test Automation Suite" finished-at="2025-02-17T13:41:23 PKT" duration-ms="3981">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testsquad.runners.TestRunner@443118b0]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-02-17T13:41:19 PKT" name="Web Tests" finished-at="2025-02-17T13:41:23 PKT" duration-ms="3981">
+      <class name="com.testsquad.runners.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.testsquad.runners.TestRunner@443118b0]" started-at="2025-02-17T13:41:19 PKT" name="setUpClass" finished-at="2025-02-17T13:41:19 PKT" duration-ms="166" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2796aeae]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.testsquad.runners.TestRunner@443118b0]" started-at="2025-02-17T13:41:19 PKT" name="setup" finished-at="2025-02-17T13:41:20 PKT" duration-ms="50" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testsquad.runners.TestRunner@443118b0]" started-at="2025-02-17T13:41:20 PKT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-02-17T13:41:23 PKT" duration-ms="3456" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify TestSquad homepage title"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["TestSquad Homepage Verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [TestSquad - Quality Assurance Services] but found [TestSquad – Reliable Software Testing Services]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [TestSquad - Quality Assurance Services] but found [TestSquad – Reliable Software Testing Services]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at com.testsquad.stepdefs.HomePageSteps.thePageTitleShouldBe(HomePageSteps.java:27)
+at ✽.the page title should be "TestSquad - Quality Assurance Services"(file:///Users/eliya/ts-selenium-testing/src/test/resources/features/HomePage.feature:5)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testsquad.runners.TestRunner@443118b0]" started-at="2025-02-17T13:41:23 PKT" name="tearDown" finished-at="2025-02-17T13:41:23 PKT" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.testsquad.runners.TestRunner@443118b0]" started-at="2025-02-17T13:41:23 PKT" name="tearDownClass" finished-at="2025-02-17T13:41:23 PKT" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.testsquad.runners.TestRunner -->
+    </test> <!-- Web Tests -->
+  </suite> <!-- Test Automation Suite -->
+</testng-results>

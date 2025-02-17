@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="3.804" tests="1" skipped="0" failures="1" errors="0">
+<testcase classname="TestSquad Homepage Verification" name="Verify TestSquad homepage title" time="3.424">
+<failure type="java.lang.AssertionError" message="expected [TestSquad - Quality Assurance Services] but found [TestSquad – Reliable Software Testing Services]">
+<![CDATA[java.lang.AssertionError: expected [TestSquad - Quality Assurance Services] but found [TestSquad – Reliable Software Testing Services]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at com.testsquad.stepdefs.HomePageSteps.thePageTitleShouldBe(HomePageSteps.java:27)
+	at ✽.the page title should be "TestSquad - Quality Assurance Services"(file:///Users/eliya/ts-selenium-testing/src/test/resources/features/HomePage.feature:5)
+]]>
+</failure>
+<system-out><![CDATA[
+Given I am on the TestSquad homepage........................................passed
+Then the page title should be "TestSquad - Quality Assurance Services"......failed
+]]></system-out>
+</testcase>
+</testsuite>
