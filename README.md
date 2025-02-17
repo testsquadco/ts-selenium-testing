@@ -1,4 +1,18 @@
-# TestSquad Web Test Framework
+<p align="center">
+  <img src="https://staging.testsquad.co/wp-content/uploads/2025/02/testsquad-logo-500-469x100.png" width="400"/>
+</p>
+
+# TestSquad - Web Automation Test using Selenium & Cucumber (Boiler-plate)
+
+## About TestSquad
+
+TestSquad is a software testing company specializing in manual and automated testing solutions, ensuring high-quality software for global clients. We provide expert QA services, including mobile automation, to enhance product reliability and performance.
+
+📩 Contact us: info@testsquad.co | 🌐 Website: https://testsquad.co
+
+---
+
+## Overview
 
 A robust Selenium-based test automation framework built with Java, TestNG, and Cucumber.
 
@@ -55,4 +69,25 @@ Test execution reports can be found in:
 ## Configuration
 
 Environment-specific configurations are stored in `src/test/resources/config/` directory.
+
+## Contributing
+
+We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details. Mention TestSquad on LinkedIn :)
+
+## Support
+
+Need help implementing this framework or looking for custom automation solutions? Contact TestSquad:
+
+- 📧 Email: info@testsquad.co
+- 🌐 Website: https://testsquad.co
+- 💼 Services: Mobile Testing, Automation Solutions, QA Consulting
+
+
+## License
+
+TestSquad is released under the [MIT License](LICENSE).
+
+---
+
+<p align="center">Powered by <a href="https://testsquad.co">TestSquad</a> - Your Quality Assurance Partner</p>
 
