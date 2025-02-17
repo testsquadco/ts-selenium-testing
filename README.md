@@ -2,7 +2,7 @@
   <img src="https://staging.testsquad.co/wp-content/uploads/2025/02/testsquad-logo-500-469x100.png" width="400"/>
 </p>
 
-# TestSquad - Web Automation Test using Selenium & Cucumber (Boiler-plate)
+# TestSquad - Web Automation Testing using Selenium & Cucumber (Boiler-plate)
 
 ## About TestSquad
 
